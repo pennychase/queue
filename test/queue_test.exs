@@ -30,6 +30,7 @@ defmodule QueueTest do
     {item, queue} = Queue.dequeue(queue)
     assert item == 3
     assert Queue.empty?(queue) == true
+
   end
 
   test "dequeue from an empty queue" do
